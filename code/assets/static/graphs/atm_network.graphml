@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_stop_name" for="node" attr.name="stop_name" attr.type="string"/>
+  <key id="v_longitude" for="node" attr.name="longitude" attr.type="double"/>
+  <key id="v_latitude" for="node" attr.name="latitude" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_stop_name">S.AGOSTINO</data>
+      <data key="v_longitude">9.16981440788917</data>
+      <data key="v_latitude">45.4586201010403</data>
+    </node>
+    <node id="n1">
+      <data key="v_stop_name">MOSCOVA</data>
+      <data key="v_longitude">9.18447570788576</data>
+      <data key="v_latitude">45.4774395010376</data>
+    </node>
+    <node id="n2">
+      <data key="v_stop_name">DOMODOSSOLA</data>
+      <data key="v_longitude">9.16226040292663</data>
+      <data key="v_latitude">45.4816190261305</data>
+    </node>
+    <node id="n3">
+      <data key="v_stop_name">PIOLA</data>
+      <data key="v_longitude">9.22591680786951</data>
+      <data key="v_latitude">45.4811450010343</data>
+    </node>
+    <node id="n4">
+      <data key="v_stop_name">BUSSERO</data>
+      <data key="v_longitude">9.37589692165838</data>
+      <data key="v_latitude">45.5253016625526</data>
+    </node>
+    <node id="n5">
+      <data key="v_stop_name">SESTO RONDO</data>
+      <data key="v_longitude">9.23124580787442</data>
+      <data key="v_latitude">45.5341593010292</data>
+    </node>
+    <node id="n6">
+      <data key="v_stop_name">CORDUSIO</data>
+      <data key="v_longitude">9.18623540788346</data>
+      <data key="v_latitude">45.4655319010385</data>
+    </node>
+    <node id="n7">
+      <data key="v_stop_name">ABBIATEGRASSO</data>
+      <data key="v_longitude">9.17732280788234</data>
+      <data key="v_latitude">45.4299949010423</data>
+    </node>
+    <node id="n8">
+      <data key="v_stop_name">GARIBALDI FS</data>
+      <data key="v_longitude">9.18674240788567</data>
+      <data key="v_latitude">45.4836397010369</data>
+    </node>
+    <node id="n9">
+      <data key="v_stop_name">LANZA</data>
+      <data key="v_longitude">9.18254810788584</data>
+      <data key="v_latitude">45.4722295010382</data>
+    </node>
+    <node id="n10">
+      <data key="v_stop_name">CONCILIAZIONE</data>
+      <data key="v_longitude">9.1664870078917</data>
+      <data key="v_latitude">45.4675341010398</data>
+    </node>
+    <node id="n11">
+      <data key="v_stop_name">LAMBRATE FS</data>
+      <data key="v_longitude">9.23482980786632</data>
+      <data key="v_latitude">45.4842475010334</data>
+    </node>
+    <node id="n12">
+      <data key="v_stop_name">CENTRALE FS</data>
+      <data key="v_longitude">9.20261280787936</data>
+      <data key="v_latitude">45.4844397010357</data>
+    </node>
+    <node id="n13">
+      <data key="v_stop_name">CORVETTO</data>
+      <data key="v_longitude">9.22346950786509</data>
+      <data key="v_latitude">45.4404109010381</data>
+    </node>
+    <node id="n14">
+      <data key="v_stop_name">CRESCENZAGO</data>
+      <data key="v_longitude">9.24819330786372</data>
+      <data key="v_latitude">45.5052544010305</data>
+    </node>
+    <node id="n15">
+      <data key="v_stop_name">CAIAZZO</data>
+      <data key="v_longitude">9.20940940787674</data>
+      <data key="v_latitude">45.4853182010351</data>
+    </node>
+    <node id="n16">
+      <data key="v_stop_name">S.LEONARDO</data>
+      <data key="v_longitude">9.10148120792243</data>
+      <data key="v_latitude">45.5011555010415</data>
+    </node>
+    <node id="n17">
+      <data key="v_stop_name">CASCINA ANTONIETTA</data>
+      <data key="v_longitude">9.42350019149016</data>
+      <data key="v_latitude">45.5420794775569</data>
+    </node>
+    <node id="n18">
+      <data key="v_stop_name">BANDE NERE</data>
+      <data key="v_longitude">9.13648450790302</data>
+      <data key="v_latitude">45.4615040010425</data>
+    </node>
+    <node id="n19">
+      <data key="v_stop_name">PRECOTTO</data>
+      <data key="v_longitude">9.22449910787419</data>
+      <data key="v_latitude">45.5120295010316</data>
+    </node>
+    <node id="n20">
+      <data key="v_stop_name">PALESTRO</data>
+      <data key="v_longitude">9.20194900787789</data>
+      <data key="v_latitude">45.4714250010369</data>
+    </node>
+    <node id="n21">
+      <data key="v_stop_name">GESSATE</data>
+      <data key="v_longitude">9.43662513013157</data>
+      <data key="v_latitude">45.5452872312833</data>
+    </node>
+    <node id="n22">
+      <data key="v_stop_name">TOLSTOJ</data>
+      <data key="v_longitude">9.14801700789729</data>
+      <data key="v_latitude">45.4535970010351</data>
+    </node>
+    <node id="n23">
+      <data key="v_stop_name">LIMA</data>
+      <data key="v_longitude">9.21098270787544</data>
+      <data key="v_latitude">45.4803459010354</data>
+    </node>
+    <node id="n24">
+      <data key="v_stop_name">REPUBBLICA</data>
+      <data key="v_longitude">9.1988564078803</data>
+      <data key="v_latitude">45.4800896010363</data>
+    </node>
+    <node id="n25">
+      <data key="v_stop_name">CASCINA GOBBA</data>
+      <data key="v_longitude">9.26051020785957</data>
+      <data key="v_latitude">45.5114424010291</data>
+    </node>
+    <node id="n26">
+      <data key="v_stop_name">SONDRIO</data>
+      <data key="v_longitude">9.20055840788093</data>
+      <data key="v_latitude">45.4899902010353</data>
+    </node>
+    <node id="n27">
+      <data key="v_stop_name">SFORZA-POLICLINICO</data>
+      <data key="v_longitude">9.19546500787894</data>
+      <data key="v_latitude">45.4597200010311</data>
+    </node>
+    <node id="n28">
+      <data key="v_stop_name">AMENDOLA</data>
+      <data key="v_longitude">9.15096930789879</data>
+      <data key="v_latitude">45.4736789010404</data>
+    </node>
+    <node id="n29">
+      <data key="v_stop_name">P.TA VENEZIA</data>
+      <data key="v_longitude">9.20504640787705</data>
+      <data key="v_latitude">45.4744187010364</data>
+    </node>
+    <node id="n30">
+      <data key="v_stop_name">SAN BABILA</data>
+      <data key="v_longitude">9.19752860787903</data>
+      <data key="v_latitude">45.4665214010376</data>
+    </node>
+    <node id="n31">
+      <data key="v_stop_name">BRENTA</data>
+      <data key="v_longitude">9.21848140786742</data>
+      <data key="v_latitude">45.4428107010382</data>
+    </node>
+    <node id="n32">
+      <data key="v_stop_name">VILLA S.G.</data>
+      <data key="v_longitude">9.22613020787426</data>
+      <data key="v_latitude">45.517454501031</data>
+    </node>
+    <node id="n33">
+      <data key="v_stop_name">P.TA GENOVA F.S.</data>
+      <data key="v_longitude">9.16960610788843</data>
+      <data key="v_latitude">45.4523782010409</data>
+    </node>
+    <node id="n34">
+      <data key="v_stop_name">BICOCCA</data>
+      <data key="v_longitude">9.20536990788228</data>
+      <data key="v_latitude">45.5147339010328</data>
+    </node>
+    <node id="n35">
+      <data key="v_stop_name">URUGUAY</data>
+      <data key="v_longitude">9.12054590791374</data>
+      <data key="v_latitude">45.4937169010408</data>
+    </node>
+    <node id="n36">
+      <data key="v_stop_name">CERNUSCO SUL NAVIGLIO</data>
+      <data key="v_longitude">9.33137771302972</data>
+      <data key="v_latitude">45.5210690112066</data>
+    </node>
+    <node id="n37">
+      <data key="v_stop_name">FAMAGOSTA</data>
+      <data key="v_longitude">9.16801260788702</data>
+      <data key="v_latitude">45.4368950010424</data>
+    </node>
+    <node id="n38">
+      <data key="v_stop_name">PORTO DI MARE</data>
+      <data key="v_longitude">9.23031110786189</data>
+      <data key="v_latitude">45.4371279010379</data>
+    </node>
+    <node id="n39">
+      <data key="v_stop_name">QT8</data>
+      <data key="v_longitude">9.13718230790599</data>
+      <data key="v_latitude">45.4859581010403</data>
+    </node>
+    <node id="n40">
+      <data key="v_stop_name">TURRO</data>
+      <data key="v_longitude">9.22100470787406</data>
+      <data key="v_latitude">45.5004455010329</data>
+    </node>
+    <node id="n41">
+      <data key="v_stop_name">ROMOLO</data>
+      <data key="v_longitude">9.16767680788806</data>
+      <data key="v_latitude">45.4437333010418</data>
+    </node>
+    <node id="n42">
+      <data key="v_stop_name">CIMIANO</data>
+      <data key="v_longitude">9.24142570786576</data>
+      <data key="v_latitude">45.5000415010315</data>
+    </node>
+    <node id="n43">
+      <data key="v_stop_name">CROCETTA</data>
+      <data key="v_longitude">9.19510340787869</data>
+      <data key="v_latitude">45.4565508010387</data>
+    </node>
+    <node id="n44">
+      <data key="v_stop_name">UDINE</data>
+      <data key="v_longitude">9.23699640786637</data>
+      <data key="v_latitude">45.4912044010326</data>
+    </node>
+    <node id="n45">
+      <data key="v_stop_name">GIOIA</data>
+      <data key="v_longitude">9.19485740788256</data>
+      <data key="v_latitude">45.4848999010362</data>
+    </node>
+    <node id="n46">
+      <data key="v_stop_name">RHO FIERAMILANO</data>
+      <data key="v_longitude">9.08710730793073</data>
+      <data key="v_latitude">45.5198398010409</data>
+    </node>
+    <node id="n47">
+      <data key="v_stop_name">MACIACHINI</data>
+      <data key="v_longitude">9.18504250788822</data>
+      <data key="v_latitude">45.4977017010357</data>
+    </node>
+    <node id="n48">
+      <data key="v_stop_name">CA GRANDA</data>
+      <data key="v_longitude">9.201110307883</data>
+      <data key="v_latitude">45.5072425010338</data>
+    </node>
+    <node id="n49">
+      <data key="v_stop_name">SESTO MARELLI</data>
+      <data key="v_longitude">9.22796150787432</data>
+      <data key="v_latitude">45.5234771010303</data>
+    </node>
+    <node id="n50">
+      <data key="v_stop_name">PAGANO</data>
+      <data key="v_longitude">9.16109520789398</data>
+      <data key="v_latitude">45.4682808010401</data>
+    </node>
+    <node id="n51">
+      <data key="v_stop_name">CASCINA BURRONA</data>
+      <data key="v_longitude">9.29783542421094</data>
+      <data key="v_latitude">45.5173643568948</data>
+    </node>
+    <node id="n52">
+      <data key="v_stop_name">REPETTI</data>
+      <data key="v_longitude">9.24039331723879</data>
+      <data key="v_latitude">45.4620091679016</data>
+    </node>
+    <node id="n53">
+      <data key="v_stop_name">GELSOMINI</data>
+      <data key="v_longitude">9.13571500790173</data>
+      <data key="v_latitude">45.4496160010364</data>
+    </node>
+    <node id="n54">
+      <data key="v_stop_name">GORGONZOLA</data>
+      <data key="v_longitude">9.4034541078052</data>
+      <data key="v_latitude">45.5367410010166</data>
+    </node>
+    <node id="n55">
+      <data key="v_stop_name">VILLA POMPEA</data>
+      <data key="v_longitude">9.38497435183031</data>
+      <data key="v_latitude">45.5278485186712</data>
+    </node>
+    <node id="n56">
+      <data key="v_stop_name">PASTEUR</data>
+      <data key="v_longitude">9.21818010787396</data>
+      <data key="v_latitude">45.491069201034</data>
+    </node>
+    <node id="n57">
+      <data key="v_stop_name">GAMBARA</data>
+      <data key="v_longitude">9.14302800790082</data>
+      <data key="v_latitude">45.4648963010417</data>
+    </node>
+    <node id="n58">
+      <data key="v_stop_name">ROVERETO</data>
+      <data key="v_longitude">9.21950580787402</data>
+      <data key="v_latitude">45.4955331010335</data>
+    </node>
+    <node id="n59">
+      <data key="v_stop_name">AFFORI FN</data>
+      <data key="v_longitude">9.1682516078982</data>
+      <data key="v_latitude">45.5216818010349</data>
+    </node>
+    <node id="n60">
+      <data key="v_stop_name">BUONARROTI</data>
+      <data key="v_longitude">9.15529230789661</data>
+      <data key="v_latitude">45.4704020010403</data>
+    </node>
+    <node id="n61">
+      <data key="v_stop_name">COLOGNO NORD</data>
+      <data key="v_longitude">9.29109410785026</data>
+      <data key="v_latitude">45.5343028010249</data>
+    </node>
+    <node id="n62">
+      <data key="v_stop_name">CENISIO</data>
+      <data key="v_longitude">9.17194683918037</data>
+      <data key="v_latitude">45.4874900006159</data>
+    </node>
+    <node id="n63">
+      <data key="v_stop_name">TRICOLORE</data>
+      <data key="v_longitude">9.20777092764362</data>
+      <data key="v_latitude">45.4679042085121</data>
+    </node>
+    <node id="n64">
+      <data key="v_stop_name">GORLA</data>
+      <data key="v_longitude">9.2227388078742</data>
+      <data key="v_latitude">45.5067343010322</data>
+    </node>
+    <node id="n65">
+      <data key="v_stop_name">SANTA SOFIA</data>
+      <data key="v_longitude">9.18818000788142</data>
+      <data key="v_latitude">45.456267001032</data>
+    </node>
+    <node id="n66">
+      <data key="v_stop_name">LODI T.I.B.B.</data>
+      <data key="v_longitude">9.21081640787104</data>
+      <data key="v_latitude">45.4467636010384</data>
+    </node>
+    <node id="n67">
+      <data key="v_stop_name">MONTENAPOLEONE</data>
+      <data key="v_longitude">9.19284790788138</data>
+      <data key="v_latitude">45.4700055010376</data>
+    </node>
+    <node id="n68">
+      <data key="v_stop_name">DE ANGELI</data>
+      <data key="v_longitude">9.14956580789839</data>
+      <data key="v_latitude">45.4664306010411</data>
+    </node>
+    <node id="n69">
+      <data key="v_stop_name">INGANNI</data>
+      <data key="v_longitude">9.12226290790824</data>
+      <data key="v_latitude">45.4575630010439</data>
+    </node>
+    <node id="n70">
+      <data key="v_stop_name">VIMODRONE</data>
+      <data key="v_longitude">9.28598910784986</data>
+      <data key="v_latitude">45.5157833010269</data>
+    </node>
+    <node id="n71">
+      <data key="v_stop_name">SAN SIRO IPPODROMO</data>
+      <data key="v_longitude">9.12901244641326</data>
+      <data key="v_latitude">45.4762089724921</data>
+    </node>
+    <node id="n72">
+      <data key="v_stop_name">ASSAGO MILANOFIORI FORUM</data>
+      <data key="v_longitude">9.14553880789143</data>
+      <data key="v_latitude">45.4017485010472</data>
+    </node>
+    <node id="n73">
+      <data key="v_stop_name">MOLINO DORINO</data>
+      <data key="v_longitude">9.09296610792641</data>
+      <data key="v_latitude">45.5052116010418</data>
+    </node>
+    <node id="n74">
+      <data key="v_stop_name">VILLA FIORITA</data>
+      <data key="v_longitude">9.34597136677819</data>
+      <data key="v_latitude">45.5207397997402</data>
+    </node>
+    <node id="n75">
+      <data key="v_stop_name">SESTO 1 MAGGIO FS</data>
+      <data key="v_longitude">9.23833340787256</data>
+      <data key="v_latitude">45.541691201028</data>
+    </node>
+    <node id="n76">
+      <data key="v_stop_name">COLOGNO CENTRO</data>
+      <data key="v_longitude">9.28296420785263</data>
+      <data key="v_latitude">45.5274782010261</data>
+    </node>
+    <node id="n77">
+      <data key="v_stop_name">CASSINA DE PECCHI</data>
+      <data key="v_longitude">9.36312160213121</data>
+      <data key="v_latitude">45.5218640337103</data>
+    </node>
+    <node id="n78">
+      <data key="v_stop_name">CALIFORNIA</data>
+      <data key="v_longitude">9.16006200789295</data>
+      <data key="v_latitude">45.4575480010339</data>
+    </node>
+    <node id="n79">
+      <data key="v_stop_name">CAIROLI</data>
+      <data key="v_longitude">9.18202500788554</data>
+      <data key="v_latitude">45.4683672010386</data>
+    </node>
+    <node id="n80">
+      <data key="v_stop_name">COLOGNO SUD</data>
+      <data key="v_longitude">9.27492710785491</data>
+      <data key="v_latitude">45.5202131010273</data>
+    </node>
+    <node id="n81">
+      <data key="v_stop_name">PONALE</data>
+      <data key="v_longitude">9.20947360788159</data>
+      <data key="v_latitude">45.5219945010318</data>
+    </node>
+    <node id="n82">
+      <data key="v_stop_name">PRIMATICCIO</data>
+      <data key="v_longitude">9.12925970790566</data>
+      <data key="v_latitude">45.4594136010432</data>
+    </node>
+    <node id="n83">
+      <data key="v_stop_name">TURATI</data>
+      <data key="v_longitude">9.19470670788131</data>
+      <data key="v_latitude">45.4750407010371</data>
+    </node>
+    <node id="n84">
+      <data key="v_stop_name">ASSAGO MILANOFIORI NORD</data>
+      <data key="v_longitude">9.15004630789063</data>
+      <data key="v_latitude">45.4094545010461</data>
+    </node>
+    <node id="n85">
+      <data key="v_stop_name">ROGOREDO FS</data>
+      <data key="v_longitude">9.23808910785828</data>
+      <data key="v_latitude">45.4335862010376</data>
+    </node>
+    <node id="n86">
+      <data key="v_stop_name">DE AMICIS</data>
+      <data key="v_longitude">9.17800449957926</data>
+      <data key="v_latitude">45.4587563883477</data>
+    </node>
+    <node id="n87">
+      <data key="v_stop_name">VETRA</data>
+      <data key="v_longitude">9.18232000788391</data>
+      <data key="v_latitude">45.4571280010323</data>
+    </node>
+    <node id="n88">
+      <data key="v_stop_name">BONOLA</data>
+      <data key="v_longitude">9.11014780791838</data>
+      <data key="v_latitude">45.4970026010412</data>
+    </node>
+    <node id="n89">
+      <data key="v_stop_name">LAMPUGNANO</data>
+      <data key="v_longitude">9.12731920791043</data>
+      <data key="v_latitude">45.4894017010406</data>
+    </node>
+    <node id="n90">
+      <data key="v_stop_name">ISTRIA</data>
+      <data key="v_longitude">9.19792000788354</data>
+      <data key="v_latitude">45.5016262010345</data>
+    </node>
+    <node id="n91">
+      <data key="v_stop_name">COMASINA</data>
+      <data key="v_longitude">9.16372910790089</data>
+      <data key="v_latitude">45.5281326010346</data>
+    </node>
+    <node id="n92">
+      <data key="v_stop_name">WAGNER</data>
+      <data key="v_longitude">9.15591440789603</data>
+      <data key="v_latitude">45.4679501010405</data>
+    </node>
+    <node id="n93">
+      <data key="v_stop_name">DERGANO</data>
+      <data key="v_longitude">9.17960310789147</data>
+      <data key="v_latitude">45.5055370010355</data>
+    </node>
+    <node id="n94">
+      <data key="v_stop_name">PORTELLO</data>
+      <data key="v_longitude">9.15149944089913</data>
+      <data key="v_latitude">45.4807995479328</data>
+    </node>
+    <node id="n95">
+      <data key="v_stop_name">TRE TORRI</data>
+      <data key="v_longitude">9.15667532734003</data>
+      <data key="v_latitude">45.4781401846813</data>
+    </node>
+    <node id="n96">
+      <data key="v_stop_name">ZARA</data>
+      <data key="v_longitude">9.1926011078845</data>
+      <data key="v_latitude">45.4926644010357</data>
+    </node>
+    <node id="n97">
+      <data key="v_stop_name">ARGONNE</data>
+      <data key="v_longitude">9.23195599013142</data>
+      <data key="v_latitude">45.4681309541377</data>
+    </node>
+    <node id="n98">
+      <data key="v_stop_name">FRATTINI</data>
+      <data key="v_longitude">9.14244800789931</data>
+      <data key="v_latitude">45.4518210010357</data>
+    </node>
+    <node id="n99">
+      <data key="v_stop_name">ISOLA</data>
+      <data key="v_longitude">9.19126340788437</data>
+      <data key="v_latitude">45.4876083010362</data>
+    </node>
+    <node id="n100">
+      <data key="v_stop_name">SAN DONATO</data>
+      <data key="v_longitude">9.25623390785037</data>
+      <data key="v_latitude">45.4292064010367</data>
+    </node>
+    <node id="n101">
+      <data key="v_stop_name">AFFORI CENTRO</data>
+      <data key="v_longitude">9.1739799078948</data>
+      <data key="v_latitude">45.5135543010351</data>
+    </node>
+    <node id="n102">
+      <data key="v_stop_name">PERO</data>
+      <data key="v_longitude">9.08580670792978</data>
+      <data key="v_latitude">45.508799701042</data>
+    </node>
+    <node id="n103">
+      <data key="v_stop_name">STAZIONE FORLANINI</data>
+      <data key="v_longitude">9.23634975564331</data>
+      <data key="v_latitude">45.464313059366</data>
+    </node>
+    <node id="n104">
+      <data key="v_stop_name">CONI ZUGNA</data>
+      <data key="v_longitude">9.16491200789119</data>
+      <data key="v_latitude">45.4590880010334</data>
+    </node>
+    <node id="n105">
+      <data key="v_stop_name">GERUSALEMME</data>
+      <data key="v_longitude">9.16677778724865</data>
+      <data key="v_latitude">45.4845217522137</data>
+    </node>
+    <node id="n106">
+      <data key="v_stop_name">PORTA ROMANA</data>
+      <data key="v_longitude">9.20340020787466</data>
+      <data key="v_latitude">45.4514341010386</data>
+    </node>
+    <node id="n107">
+      <data key="v_stop_name">LINATE AEROPORTO</data>
+      <data key="v_longitude">9.27790147031988</data>
+      <data key="v_latitude">45.4628501351502</data>
+    </node>
+    <node id="n108">
+      <data key="v_stop_name">SUSA</data>
+      <data key="v_longitude">9.22488440169302</data>
+      <data key="v_latitude">45.468069149493</data>
+    </node>
+    <node id="n109">
+      <data key="v_stop_name">MISSORI</data>
+      <data key="v_longitude">9.18902710788161</data>
+      <data key="v_latitude">45.4601086010388</data>
+    </node>
+    <node id="n110">
+      <data key="v_stop_name">SAN SIRO STADIO</data>
+      <data key="v_longitude">9.11831543256739</data>
+      <data key="v_latitude">45.4762588946241</data>
+    </node>
+    <node id="n111">
+      <data key="v_stop_name">SAN CRISTOFORO</data>
+      <data key="v_longitude">9.12977400790317</data>
+      <data key="v_latitude">45.4423570010375</data>
+    </node>
+    <node id="n112">
+      <data key="v_stop_name">MARCHE</data>
+      <data key="v_longitude">9.19482360788406</data>
+      <data key="v_latitude">45.4961456010352</data>
+    </node>
+    <node id="n113">
+      <data key="v_stop_name">SEGNERI</data>
+      <data key="v_longitude">9.13056500790341</data>
+      <data key="v_latitude">45.446535001037</data>
+    </node>
+    <node id="n114">
+      <data key="v_stop_name">MONUMENTALE</data>
+      <data key="v_longitude">9.17979312440483</data>
+      <data key="v_latitude">45.484814776347</data>
+    </node>
+    <node id="n115">
+      <data key="v_stop_name">BIGNAMI</data>
+      <data key="v_longitude">9.21218050788114</data>
+      <data key="v_latitude">45.5267842010312</data>
+    </node>
+    <node id="n116">
+      <data key="v_stop_name">SEGESTA</data>
+      <data key="v_longitude">9.13789399368299</data>
+      <data key="v_latitude">45.4763587387523</data>
+    </node>
+    <node id="n117">
+      <data key="v_stop_name">BISCEGLIE</data>
+      <data key="v_longitude">9.11292550791172</data>
+      <data key="v_latitude">45.4553804010448</data>
+    </node>
+    <node id="n118">
+      <data key="v_stop_name">BOLIVAR</data>
+      <data key="v_longitude">9.15314900789545</data>
+      <data key="v_latitude">45.4553190010346</data>
+    </node>
+    <node id="n119">
+      <data key="v_stop_name">DATEO</data>
+      <data key="v_longitude">9.21845299589212</data>
+      <data key="v_latitude">45.4679905014377</data>
+    </node>
+    <node id="n120">
+      <data key="v_stop_name">LORETO</data>
+      <data key="v_longitude">9.21607379312177</data>
+      <data key="v_latitude">45.4854172060138</data>
+    </node>
+    <node id="n121">
+      <data key="v_stop_name">CADORNA</data>
+      <data key="v_longitude">9.17676435788764</data>
+      <data key="v_latitude">45.468175201039</data>
+    </node>
+    <node id="n122">
+      <data key="v_stop_name">DUOMO</data>
+      <data key="v_longitude">9.18910353714431</data>
+      <data key="v_latitude">45.4642628870662</data>
+    </node>
+    <node id="n123">
+      <data key="v_stop_name">LOTTO</data>
+      <data key="v_longitude">9.14370876470995</data>
+      <data key="v_latitude">45.4794636369191</data>
+    </node>
+    <node id="n124">
+      <data key="v_stop_name">SAN AMBROGIO</data>
+      <data key="v_longitude">9.17319400788821</data>
+      <data key="v_latitude">45.4617204510362</data>
+    </node>
+    <edge source="n61" target="n76">
+    </edge>
+    <edge source="n76" target="n80">
+    </edge>
+    <edge source="n25" target="n80">
+    </edge>
+    <edge source="n14" target="n25">
+    </edge>
+    <edge source="n14" target="n42">
+    </edge>
+    <edge source="n42" target="n44">
+    </edge>
+    <edge source="n11" target="n44">
+    </edge>
+    <edge source="n3" target="n11">
+    </edge>
+    <edge source="n12" target="n15">
+    </edge>
+    <edge source="n12" target="n45">
+    </edge>
+    <edge source="n8" target="n45">
+    </edge>
+    <edge source="n1" target="n8">
+    </edge>
+    <edge source="n1" target="n9">
+    </edge>
+    <edge source="n0" target="n33">
+    </edge>
+    <edge source="n33" target="n41">
+    </edge>
+    <edge source="n37" target="n41">
+    </edge>
+    <edge source="n37" target="n84">
+    </edge>
+    <edge source="n72" target="n84">
+    </edge>
+    <edge source="n7" target="n37">
+    </edge>
+    <edge source="n71" target="n110">
+    </edge>
+    <edge source="n71" target="n116">
+    </edge>
+    <edge source="n94" target="n95">
+    </edge>
+    <edge source="n2" target="n95">
+    </edge>
+    <edge source="n2" target="n105">
+    </edge>
+    <edge source="n62" target="n105">
+    </edge>
+    <edge source="n62" target="n114">
+    </edge>
+    <edge source="n8" target="n114">
+    </edge>
+    <edge source="n8" target="n99">
+    </edge>
+    <edge source="n96" target="n99">
+    </edge>
+    <edge source="n96" target="n112">
+    </edge>
+    <edge source="n90" target="n112">
+    </edge>
+    <edge source="n48" target="n90">
+    </edge>
+    <edge source="n34" target="n48">
+    </edge>
+    <edge source="n34" target="n81">
+    </edge>
+    <edge source="n81" target="n115">
+    </edge>
+    <edge source="n25" target="n70">
+    </edge>
+    <edge source="n51" target="n70">
+    </edge>
+    <edge source="n36" target="n51">
+    </edge>
+    <edge source="n36" target="n74">
+    </edge>
+    <edge source="n74" target="n77">
+    </edge>
+    <edge source="n4" target="n77">
+    </edge>
+    <edge source="n4" target="n55">
+    </edge>
+    <edge source="n54" target="n55">
+    </edge>
+    <edge source="n17" target="n54">
+    </edge>
+    <edge source="n17" target="n21">
+    </edge>
+    <edge source="n69" target="n117">
+    </edge>
+    <edge source="n69" target="n82">
+    </edge>
+    <edge source="n18" target="n82">
+    </edge>
+    <edge source="n18" target="n57">
+    </edge>
+    <edge source="n57" target="n68">
+    </edge>
+    <edge source="n68" target="n92">
+    </edge>
+    <edge source="n50" target="n92">
+    </edge>
+    <edge source="n10" target="n50">
+    </edge>
+    <edge source="n6" target="n79">
+    </edge>
+    <edge source="n20" target="n30">
+    </edge>
+    <edge source="n20" target="n29">
+    </edge>
+    <edge source="n23" target="n29">
+    </edge>
+    <edge source="n56" target="n58">
+    </edge>
+    <edge source="n40" target="n58">
+    </edge>
+    <edge source="n40" target="n64">
+    </edge>
+    <edge source="n19" target="n64">
+    </edge>
+    <edge source="n19" target="n32">
+    </edge>
+    <edge source="n32" target="n49">
+    </edge>
+    <edge source="n5" target="n49">
+    </edge>
+    <edge source="n5" target="n75">
+    </edge>
+    <edge source="n16" target="n73">
+    </edge>
+    <edge source="n16" target="n88">
+    </edge>
+    <edge source="n35" target="n88">
+    </edge>
+    <edge source="n35" target="n89">
+    </edge>
+    <edge source="n39" target="n89">
+    </edge>
+    <edge source="n28" target="n60">
+    </edge>
+    <edge source="n50" target="n60">
+    </edge>
+    <edge source="n73" target="n102">
+    </edge>
+    <edge source="n46" target="n102">
+    </edge>
+    <edge source="n85" target="n100">
+    </edge>
+    <edge source="n38" target="n85">
+    </edge>
+    <edge source="n13" target="n38">
+    </edge>
+    <edge source="n13" target="n31">
+    </edge>
+    <edge source="n31" target="n66">
+    </edge>
+    <edge source="n66" target="n106">
+    </edge>
+    <edge source="n43" target="n106">
+    </edge>
+    <edge source="n43" target="n109">
+    </edge>
+    <edge source="n67" target="n83">
+    </edge>
+    <edge source="n24" target="n83">
+    </edge>
+    <edge source="n12" target="n24">
+    </edge>
+    <edge source="n12" target="n26">
+    </edge>
+    <edge source="n26" target="n96">
+    </edge>
+    <edge source="n47" target="n96">
+    </edge>
+    <edge source="n47" target="n93">
+    </edge>
+    <edge source="n93" target="n101">
+    </edge>
+    <edge source="n59" target="n101">
+    </edge>
+    <edge source="n59" target="n91">
+    </edge>
+    <edge source="n52" target="n107">
+    </edge>
+    <edge source="n52" target="n103">
+    </edge>
+    <edge source="n97" target="n103">
+    </edge>
+    <edge source="n97" target="n108">
+    </edge>
+    <edge source="n108" target="n119">
+    </edge>
+    <edge source="n63" target="n119">
+    </edge>
+    <edge source="n30" target="n63">
+    </edge>
+    <edge source="n27" target="n30">
+    </edge>
+    <edge source="n27" target="n65">
+    </edge>
+    <edge source="n65" target="n87">
+    </edge>
+    <edge source="n86" target="n87">
+    </edge>
+    <edge source="n78" target="n104">
+    </edge>
+    <edge source="n78" target="n118">
+    </edge>
+    <edge source="n22" target="n118">
+    </edge>
+    <edge source="n22" target="n98">
+    </edge>
+    <edge source="n53" target="n98">
+    </edge>
+    <edge source="n53" target="n113">
+    </edge>
+    <edge source="n111" target="n113">
+    </edge>
+    <edge source="n3" target="n120">
+    </edge>
+    <edge source="n15" target="n120">
+    </edge>
+    <edge source="n23" target="n120">
+    </edge>
+    <edge source="n56" target="n120">
+    </edge>
+    <edge source="n10" target="n121">
+    </edge>
+    <edge source="n79" target="n121">
+    </edge>
+    <edge source="n9" target="n121">
+    </edge>
+    <edge source="n6" target="n122">
+    </edge>
+    <edge source="n30" target="n122">
+    </edge>
+    <edge source="n67" target="n122">
+    </edge>
+    <edge source="n109" target="n122">
+    </edge>
+    <edge source="n28" target="n123">
+    </edge>
+    <edge source="n39" target="n123">
+    </edge>
+    <edge source="n94" target="n123">
+    </edge>
+    <edge source="n116" target="n123">
+    </edge>
+    <edge source="n0" target="n124">
+    </edge>
+    <edge source="n121" target="n124">
+    </edge>
+    <edge source="n86" target="n124">
+    </edge>
+    <edge source="n104" target="n124">
+    </edge>
+  </graph>
+</graphml>

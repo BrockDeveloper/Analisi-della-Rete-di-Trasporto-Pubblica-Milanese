@@ -1,0 +1,16 @@
+\chapter{Conclusioni}
+
+L’analisi condotta ha permesso di rappresentare e studiare la Rete di Trasporto Pubblica Metropolitana Milanese come una rete complessa, utilizzando un approccio di network analysis per descriverne le caratteristiche strutturali, topologiche e funzionali, e successivamente per valutarne la vulnerabilità a diverse tipologie di attacco.
+
+A partire dai dataset ufficiali forniti dal Portale Open Data del Comune di Milano e da AMAT, si è costruita una rappresentazione a grafo accurata della rete, nella quale le fermate sono state modellate come nodi e i collegamenti diretti come archi. Tale modellazione in $\mathbb{L}$-Space ha consentito di ottenere una visione della struttura topologica della rete.
+
+Le analisi descrittive hanno evidenziato come la PTN milanese presenti una configurazione prevalentemente lineare e radiale, con un grado medio vicino a 2 e un numero limitato di nodi maggiormente connessi. La rete risulta ben connessa e completamente unificata in un’unica componente connessa, con un’efficienza globale coerente con quella di infrastrutture geograficamente vincolate. Tuttavia, il coefficiente di clustering nullo e la disassortatività del grafo suggeriscono una rete ottimizzata per la distribuzione del traffico ma non particolarmente robusta a guasti localizzati.
+
+L’analisi delle metriche di centralità ha permesso di individuare i nodi più rilevanti per la connettività complessiva: stazioni come Centrale FS, Cadorna, Garibaldi FS, Duomo e Loreto emergono come punti critici della rete, non solo per il loro grado ma anche per l’elevata betweenness e closeness, confermando il loro ruolo principale.
+
+Lo studio di vulnerabilità ha infine messo in evidenza come la rete sia resiliente agli attacchi casuali, ma più sensibile ad attacchi mirati basati su misure di centralità. In particolare, la rimozione dei nodi più centrali comporta un rapido collasso della connettività: già con la rimozione del 10\% dei nodi principali, la Giant Connected Component si riduce drasticamente soprattutto negli scenari a cascata, che simulano in modo più realistico gli effetti di guasti successivi. 
+
+Nel complesso, i risultati confermano che la Rete Metropolitana Milanese è progettata in modo efficiente per la mobilità quotidiana e garantisce buoni livelli di ridondanza nelle connessioni centrali. Tuttavia, la forte dipendenza da pochi nodi strategici la rende vulnerabile a interruzioni mirate.
+
+\section{Sviluppi futuri}
+In prospettiva, il modello sviluppato potrebbe essere esteso integrando dati dinamici per analizzare non solo la vulnerabilità strutturale ma anche quella funzionale, valutando l’impatto operativo di guasti o disservizi.

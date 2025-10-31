@@ -1,7 +1,7 @@
 \chapter{Studio di vulnerabilità}
 \label{cap5}
 
-Il concetto di \textbf{vulnerabilità} in una rete complessa mira a \textit{quantificare} la sua \textit{sicurezza} e la sua \textit{stabilità} sotto gli effetti di un qualsiasi tipo di \textit{disfuzione} \cite{MattssonJenelius2015}.
+Il concetto di \textbf{vulnerabilità} in una rete complessa mira a \textit{quantificare} la sua \textit{sicurezza} e la sua \textit{stabilità} sotto gli effetti di un qualsiasi tipo di \textit{disfunzione} \cite{MattssonJenelius2015}.
 
 Nelle PTN la vulnerabilità è legata alla \textit{sensibilità alle interruzioni}, in particolare una definizione consolidata e diffusa è la seguente: "\textit{La vulnerabilità in un sistema di trasporto è la suscettibilità ad incidenti che possono portare ad una considerevole riduzione della funzionalità della rete stessa}" \cite{Berdica2002}. 
 
@@ -24,13 +24,13 @@ Nell'analisi di vulnerabilità l'obiettivo è portare la rete allo stremo per st
 Una volta stabilito cosa si intende con \textit{attacco}, bisogna comprendere come \textit{quantificare} gli effetti dell'attacco, ovvero comprendere quanto la rete è \textbf{integra}. \\
 Il \textbf{criterio di integrità} più utilizzato \cite{vonFerber2012LondonParis} passa per il concetto di \textbf{componente connessa}: gli effetti di un attacco si comprendono analizzando come varia, in termini di quantità di nodi, la più grande componente connessa della rete.
 
-Si introduce quindi la \textbf{GCC fraction}, che indica la percentuale di nodi della rete facende parte della più grande componente connessa:
+Si introduce quindi la \textbf{GCC fraction}, che indica la percentuale di nodi della rete facente parte della più grande componente connessa:
 
 $$
     \texttt{GCC fraction} = \frac{\texttt{GCC nodes} }{N}
 $$
 
-Questa metrica indica quanto del sistema continua a funzionare: quando la LCC \textbf{collassa}, significa che la rete ha perso la capacità di trasmettere traffico in modo globale.
+Questa metrica indica quanto del sistema continua a funzionare: quando la GCC \textbf{collassa}, significa che la rete ha perso la capacità di trasmettere traffico in modo globale.
 
 \section{Aspettative rispetto alle analisi precedenti}
 Prima di procedere con uno studio di vulnerabilità puntuale e corretto secondo la letteratura, si possono utilizzare le analisi svolte fino ad ora nei capitoli \ref{cap3} e \ref{cap4} per avere un'aspettativa di quelli che potrebbero essere i risultati successivi.
@@ -38,10 +38,10 @@ Prima di procedere con uno studio di vulnerabilità puntuale e corretto secondo 
 \subsection{Aspettative dell'attacco casuale}
 Le metriche calcolate e le analisi svolte hanno evidenziato la presenza di una \textit{rete lineare}, con una prevalenza di nodi di grado 2. La probabilità che in un attacco casuale venga attaccato un nodo di grado 2 è quindi elevata. Attaccare nodi di questo tipo non comporta una grande vulnerabilità per la rete, perchè i nodi con grado maggiore garantiscono una certa coesione della rete rimanente. 
 
-L'aspettativa è quindi che la rete possa essere meno vulnerabilità ad un attacco di questo tipo rispetto che ad un attacco mirato.
+L'aspettativa è quindi che la rete possa essere meno vulnerabile ad un attacco di questo tipo rispetto che ad un attacco mirato.
 
 \subsection{Aspettative dell'attacco mirato}
-Le metriche calcolate e le analisi svolte hanno evidenziato la presenza di alcuni \textit{hub} di piccola dimenzione al centro geografico della rete, in cui si concentrano gli \textit{interscambi} tra le linee. 
+Le metriche calcolate e le analisi svolte hanno evidenziato la presenza di alcuni \textit{hub} di piccola dimensione al centro geografico della rete, in cui si concentrano gli \textit{interscambi} tra le linee. 
 
 La dimensione degli hub non giustifica una grande importanza rispetto al resto della rete, ma sono comunque più strategici dei nodi alle diramazioni della rete e quindi l'aspettativa è che un attacco mirato a questi nodi, che sono i primi ad essere attaccati sia per \textit{grado} che per \textit{betweenness}, possa portare ad un \textbf{degrado} \textbf{maggiore} e \textbf{più rapido} della rete rispetto all'attacco casuale. 
 
@@ -67,7 +67,7 @@ Casuale & Mirato & Media di 12 attacchi indipendenti \\
 \end{table}
 \vspace{1em}
 
-L'attacco casuale, per avere una stima più puntuale, è stato svolto diverse volte su diversi ordini casuali dei nodi attaccati. Pertanto, i risultati di questo attacco sono le medie dei risultat dei singoli attacchi casuali.
+L'attacco casuale, per avere una stima più puntuale, è stato svolto diverse volte su diversi ordini casuali dei nodi attaccati. Pertanto, i risultati di questo attacco sono le medie dei risultati dei singoli attacchi casuali.
 
 \subsection{Analisi dell'attacco casuale}
 In figura \ref{fig: Attacco di vulnerabilità casuale} è possibile visualizzare la \textit{GCC fraction} in relazione ai \textit{nodi rimossi} negli attacchi casuali. La linea rappresenta la media degli attacchi e l'ombra la deviazione standard.
@@ -98,7 +98,7 @@ In figura \ref{fig: Confronto attacco di vulnerabilità per grado e per grado a 
 \vspace{1em}
 
 Entrambe le curve \textbf{crollano} velocemente, la frazione del GCC scende sotto il 20\% già al 10\% dei nodi rimossi. \\
-L'attacco a cascata leggermente più \textbf{aggressiva}. 
+L'attacco a cascata è leggermente più \textbf{aggressivo}, soprattutto nella discesa iniziale.
 
 Dopo il 15\% di nodi rimossi, entrambe le curve si appiattiscono, indicando un collasso quasi totale della rete.
 
@@ -119,7 +119,7 @@ Analogamente all'attacco precedente, entrambe le curve mostrano un \textbf{croll
 La rete è dipendente da nodi con elevata betweenness, che fungono da intersezioni tra linee, e l’effetto cascata amplifica questa vulnerabilità: rimuovendo un nodo importante, altri ereditano la caratteristica e vengono rapidamente eliminati.
 
 \subsection{Analisi comparativa degli attacchi}
-In figura \ref{fig: Confronto attacchi di vulnerabilità} è possibile visualizzare la \textit{GCC fraction} in relazione ai \textit{nodi rimossi} in confronto a tutti gli attacchi esguiti.
+In figura \ref{fig: Confronto attacchi di vulnerabilità} è possibile visualizzare la \textit{GCC fraction} in relazione ai \textit{nodi rimossi} in confronto a tutti gli attacchi eseguiti.
 
 \vspace{1em}
 \begin{figure}[h!]
@@ -148,9 +148,9 @@ Un'altra analisi di confronto importante si può ritrovare in figura \ref{fig: N
 Le curve degli attacchi a cascata crescono rapidamente e raggiungono oltre 60 componenti tra il 30\% e il 40\% di rimozione, la rete si frammenta \textbf{fortemente}.
 La rimozione per grado mirata produce meno frammentazione, ma comunque notevole.
 
-Una differenza rispetto alle analisi precedenti si ha nell'attacco per betweenness, che non produce un numero di componenti altrettato alto, tende quindi a isolare nodi mantenendo gruppi più compatti.
+Una differenza rispetto alle analisi precedenti si ha nell'attacco per betweenness, che non produce un numero di componenti altrettanto alto, tende quindi a isolare nodi mantenendo gruppi più compatti.
 
-L'attacco casuale aumenta più lentamente e si stabilizza trai i 25 e i 30 componenti, coerentemente con la maggiore robustezza casuale.
+L'attacco casuale aumenta più lentamente e si stabilizza tra i 25 e i 30 componenti, coerentemente con la maggiore robustezza casuale.
 
 Le strategie basate su grado o betweenness in modalità a cascata frammentano quindi rapidamente la rete, evidenziando che la connettività globale dipende da pochi nodi centrali critici. Gli attacchi per betweenness mirati creano meno frammentazione rispetto agli altri attacchi mirati, ma comunque distruggono la connettività principale come evidenziato precedentemente.
 

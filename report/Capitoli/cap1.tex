@@ -4,12 +4,12 @@
 \section{Introduzione al dataset}
 L'analisi presentata si basa sui dati resi disponibili dal \textbf{Portale Open Data del Comune di Milano} che fornisce in formato aperto numerose informazioni relative alla città, incluse quelle sul \textit{trasporto pubblico locale} \cite{ComuneMilanoOpenData}. In particolare, i dati sul trasporto pubblico sono forniti dall'\textbf{Agenzia Mobilità Ambiente Territorio} \cite{Amat}, società che, tra le altre cose, si occupa di raccogliere, gestire e diffondere i \textit{dati sulla mobilità urbana}.
 
-Tale società fornisce i dati in formato GTFS \cite{GTFS}, uno standard che, attraverso un insieme di file, permette di rappresentare digitalmente un'intera rete di trasporto, integrando anche dati geografici e temporali. Fornisce inoltre gli stessi dati anche in un formato \textit{proprietario}, strutturato in file csv in lingua italiana che perdono parte delle informazioni del GTFS, ma che sono comunque completi rispetto alla struttura e ai collegamenti della rete.
+Tale società fornisce i dati in formato GTFS \cite{GTFS}, uno standard che, attraverso un insieme di file, permette di rappresentare digitalmente un'intera rete di trasporto, integrando anche dati geografici e temporali. Fornisce inoltre gli stessi dati in un formato \textit{proprietario}, strutturato in file csv in lingua italiana che perdono parte delle informazioni del GTFS, ma che sono comunque completi rispetto alla struttura e ai collegamenti della rete.
 
 Per questo motivo e considerando le finalità dell'analisi, si è scelto di utilizzare il \textit{formato proprietario}.
 
 \section{Esplorazione dei dataset}
-Il dataset si compone di tre dataset che sono reperibili indipendentemente gli uni dagli altri:
+I dati sono suddivisi in tre dataset che sono reperibili indipendentemente gli uni dagli altri:
 \begin{itemize}
     \item \textbf{Fermate linee metropolitane} dataset contenente le informazioni sulle fermate di tutte le linee metropolitane \cite{FermateLineeMetropolitane};
     \item \textbf{Percorsi linee metropolitane} dataset contenente le informazioni su tutti i percorsi che compongono le linee, che non sono unicamente quelli tra due fermate di capolinea, ma anche quelli percorribili tra tutte le fermate che consentono l'inversione del verso di percorrenza \cite{PercorsiLineeMetropolitane};
@@ -88,7 +88,7 @@ D'altra parte, i tre dataset in studio hanno comunque alcuni attributi che posso
 \label{subsec: analisi del dataset dellef ermate}
 In totale sono presenti $130$ fermate ognuna con un id \textbf{univoco}, anche se alcune identificate con id diversi sono, in realtà, la stessa fermata. Può sembrare una considerazione banale, ma la diversa \textbf{nomenclatura} di una stessa stazione dovrà essere gestita in fase di costruzione del grafo di rappresentazione della rete per evitare errori.
 
-Le linee alle quali appartengono le fermate sono $5$, corrispondenti alle cinque linee che compongono la rete: \textit{M1}, \textit{M2}, \textit{M3}, \textit{M4} e \textit{M5}. La linea più frequenze è la \textbf{linea 1} presente $37$ volte,  il che suggerisce sia la linea con più fermate delle cinque.
+Le linee alle quali appartengono le fermate sono $5$, corrispondenti alle cinque linee che compongono la rete: \textit{M1}, \textit{M2}, \textit{M3}, \textit{M4} e \textit{M5}. La linea più frequente è la \textbf{linea 1} presente $37$ volte,  il che suggerisce sia la linea con più fermate delle cinque.
 
 \subsection{Analisi del dataset dei Percorsi}
 I percorsi disponibili sono $43$, questo dato suggerisce che i percorsi identificati in questo dataset non siano unicamente quelli tra stazioni capolinea, ma anche quelli tra stazioni che consentono ai treni di effettuare un'\textbf{inversione di marcia} grazie alla presenza di specifici binari di manovra o raccordi.
@@ -122,10 +122,10 @@ Questo dataset può essere visto come una \textit{descrizione delle relazioni} t
 \section{Preprocessamento dei dataset}
 
 \subsection{Data cleaning}
-I dati sono ben rappresentati nei dataset e non presentano valori nulli, come evidenziato dall'inizio del capitolo \ref{cap1}. non è stato quindi necessario svolgere alcuna operazione in questa fase.
+I dati sono ben rappresentati nei dataset e non presentano valori nulli, come evidenziato all'inizio del capitolo \ref{cap1}. non è stato quindi necessario svolgere alcuna operazione in questa fase.
 
 \subsection{Data transformation}
-I dati sono tutti rappresentati nei formati corretti e non hanno bisogno di operazioni di normalizzazione o aggregazione. L'unico attributo che ha richiesto un processamento è l'attributo \texttt{linee} che è stato convertito in una \textit{lista di interi}, originalmente era infatti rappresentato come una stringa contenente i numeri di linee intercalate da virgole.
+I dati sono tutti rappresentati nei formati corretti e non hanno bisogno di operazioni di normalizzazione o aggregazione. L'unico attributo che ha richiesto un processamento è l'attributo \texttt{linee} che è stato convertito in una \textit{lista di interi}, originariamente era infatti rappresentato come una stringa contenente i numeri di linee intercalate da virgole.
 
 \subsection{Feature selection e Data Integration}
 
